@@ -11,11 +11,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw1.def",
-						"mask" : [
-							"VBB",
-							"VBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -29,11 +25,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw12.def",
-						"mask" : [
-							"VBB",
-							"VBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -47,11 +39,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw11.def",
-						"mask" : [
-							"VBB",
-							"VBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -65,11 +53,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw2.def",
-						"mask" : [
-							"BBB",
-							"VBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -83,11 +67,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw3.def",
-						"mask" : [
-							"VBB",
-							"BBB",
-							"BBA"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -101,10 +81,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw10.def",
-						"mask" : [
-							"BBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "BAB" ]
 					}
 				}
 			},
@@ -118,10 +95,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw4.def",
-						"mask" : [
-							"VBB",
-							"BAB"
-						]
+						"mask" : [ "VVV","VAB" ]
 					}
 				}
 			},
@@ -135,11 +109,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw8.def",
-						"mask" : [
-							"BBB",
-							"VBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -154,11 +124,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw5.def",
-						"mask" : [
-							"BBB",
-							"BBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -173,11 +139,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw6.def",
-						"mask" : [
-							"BBB",
-							"BBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -192,11 +154,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw7.def",
-						"mask" : [
-							"VBB",
-							"BBB",
-							"BAB"
-						]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -211,13 +169,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw9.def",
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VBBV",
-							"BBBB",
-							"BBAB"
-						]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBBV", "VBAV" ]
 					}
 				}
 			}
@@ -249,14 +201,11 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/birthingPit.def",
-						"mask" : [
-							"VVV",
-							"VBV",
-							"VAB"
-						]
+						"mask" : [  "VVV", "VVV", "VAB" ]
 					}
 				}
 			}
 		}
 	}
 }
+

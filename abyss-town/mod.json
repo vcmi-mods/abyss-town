@@ -3,87 +3,37 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.15",
+	"version" : "1.16",
 	"modType" : "Town",
-	"factions" : [
-		"config/abyss/town"
-	],
-	"changelog" : {
-		"1.15" : [
-			"Minor tweak"
-		],
-		"1.14" : [
-			"Fixed missing commas"
-		],
-		"1.13" : [
-			"Added ukrainian translation"
-		],
-		"1.12" : [
-			"Fix Grail not to produce gold"
-		],
-		"1.11" : [
-			"Spell changes called Child of the Light that affect Yuan-Ti made by 白云飘飘"
-		],
-		"1.10" : [
-			"Update to vcmi-1.6 version",
-			"Added polish translation by FallainBlack"
-		],
-		"1.06" : [
-			"Czech translation by George King"
-		],
-		"1.05" : [
-			"Fixed issue with Water Temple bank",
-			"Fixed issue with Dark Ones/Deep Ones abilities",
-			"Fixed issue with Seeweed's Acid Breath"
-		],
-		"1.04" : [
-			"Fixed Kingsax specialty"
-		],
-		"1.03" : [
-			"Updated russian translation"
-		],
-		"1.02" : [
-			"Added effects to grail (by Dark Imagine)"
-		],
-		"1.00" : [
-			"Fixed dwelling masks"
-		],
-		"0.99" : [
-			"Updated russian translation"
-		],
-		"0.98" : [
-			"Russian translation by Anton Sergeew"
-		],
-		"0.97" : [
-			"Fixed possible crash on map start"
-		],
-		"0.96" : [
-			"Added the creatures' stackExp and fixed the commander"
-		],
-		"0.95" : [
-			"Adjusted Commanders stats"
-		],
-		"0.94" : [
-			"Update to vcmi-1.4 format"
-		],
-		"0.93" : [
-			"Various fixes"
-		],
-		"0.92" : [
-			"Update to vcmi-1.3"
-		],
-		"0.91" : [
-			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
-		],
-		"0.90" : [
-			"Update to vcmi-1.2"
-		],
-		"0.80" : [
-			"Various fixes"
-		],
-		"0.70" : [
-			"Initial release"
-		]
+	"factions" : [ "config/abyss/town" ],
+	"changelog" :
+	{
+		"1.16"   : [ "Dwelling mask fixes" ],
+		"1.15"   : [ "Minor tweak" ],
+		"1.14"   : [ "Fixed missing commas" ],
+		"1.13"   : [ "Added ukrainian translation" ],
+		"1.12"   : [ "Fix Grail not to produce gold" ],
+		"1.11"   : [ "Spell changes called Child of the Light that affect Yuan-Ti made by 白云飘飘" ],
+		"1.10"   : [ "Update to vcmi-1.6 version", "Added polish translation by FallainBlack" ],
+		"1.06"   : [ "Czech translation by George King" ],
+		"1.05"   : [ "Fixed issue with Water Temple bank", "Fixed issue with Dark Ones/Deep Ones abilities", "Fixed issue with Seeweed's Acid Breath" ],
+		"1.04"   : [ "Fixed Kingsax specialty" ],
+		"1.03"   : [ "Updated russian translation" ],
+		"1.02"   : [ "Added effects to grail (by Dark Imagine)" ],
+		"1.00"   : [ "Fixed dwelling masks" ],
+		"0.99"   : [ "Updated russian translation" ],
+		"0.98"   : [ "Russian translation by Anton Sergeew" ],
+		"0.97"   : [ "Fixed possible crash on map start" ],
+		"0.96"   : [ "Added the creatures' stackExp and fixed the commander" ],
+		"0.95"   : [ "Adjusted Commanders stats" ],
+		"0.94"   : [ "Update to vcmi-1.4 format" ],
+		"0.93"   : [ "Various fixes" ],
+		"0.92"   : [ "Update to vcmi-1.3" ],
+		"0.91"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+		"0.90"   : [ "Update to vcmi-1.2"  ],
+		"0.80"   : [ "Various fixes"  ],
+		"0.70"   : [ "Initial release"  ]
+
 	},
 	"compatibility" : {
 		"min" : "1.6.0"

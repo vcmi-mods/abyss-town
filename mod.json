@@ -117,49 +117,49 @@
 		"name" : "深渊",
 		"description" : "深渊",
 		"translations" : [
-			"translation/abyss/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"french" : {
 		"name" : "Abîme",
 		"description" : "La ville des abîmes",
 		"translations" : [
-			"translation/abyss/french.json"
+			"translation/french.json"
 		]
 	},
 	"german" : {
 		"name" : "Abyss",
 		"description" : "Abyss",
 		"translations" : [
-			"translation/abyss/german.json"
+			"translation/german.json"
 		]
 	},
 	"russian" : {
 		"name" : "Пучина",
 		"description" : "Новый город Пучина, созданный по тематике подводного мира",
 		"translations" : [
-			"translation/abyss/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"czech" : {
 		"name" : "Útes",
 		"description" : "Útes je město skryté v hlubinách oceánu, kde vládnou pradávné bytosti a temní šamani. Společně s podmořskými tvory tvoří společenství, které se odtrhlo od světa na povrchu a uctívá moc oceánu.<br/><br/>Jeho armádu tvoří <b>ornie</b>, <b>krabi</b>, <b>mořští koníci</b>, <b>aurelie</b> a <b>chobotnice</b>, posílené hadími <b>Yuan-Ti</b>, hrozivými <b>krakeny</b> a dalšími děsivými tvory z hlubin.<br/><br/>Útes se specializuje na <b>vodní kouzla</b>, odolnost proti magii a schopnosti spojené s oceánem. Díky svým mocným jednotkám i magii dokáže ovládnout jak pevninu, tak moře.<br/><br/>Je to frakce pro hráče, kteří hledají sílu temných hlubin a podmořské tvory.",
 		"translations" : [
-			"translation/abyss/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"polish" : {
 		"name" : "Głębia",
 		"description" : "Nowe miasto Głębia, wykorzystujące mitologię podwodnego świata.",
 		"translations" : [
-			"translation/abyss/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"ukrainian" : {
 		"name" : "Безодня",
 		"description" : "Нове місто Безодня, створене за мотивами міфології підводного світу",
 		"translations" : [
-			"translation/abyss/ukrainian.json"
+			"translation/ukrainian.json"
 		]
 	},
 	"creatures" : [

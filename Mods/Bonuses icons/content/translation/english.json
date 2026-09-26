@@ -1,0 +1,10 @@
+{
+	"creatures.abyss-town.abyssHarpoon.bonus.warmachine" : "{Harpoon}\nA missile weapon that shoots projectiles towards enemy troops.",
+	"creatures.abyss-town.abyssHyppocamph.bonus.lucky" : "{Positive Luck}\nUnit luck cannot be decreased below +1",
+	"creatures.abyss-town.abyssOceanWorm.bonus.flying" : "{Burrowing}\nThis unit can burrow while moving and will ignore battlefield obstacles",
+	"creatures.abyss-town.abyssSeaWorm.bonus.flying" : "{Burrowing}\nThis unit can burrow while moving and will ignore battlefield obstacles",
+	"creatures.abyss-town.abyssSeahorse.bonus.lucky" : "{Positive Luck}\nUnit luck cannot be decreased below +1",
+	"creatures.abyss-town.goldenHyppocamph.bonus.lucky" : "{Positive Luck}\nUnit luck cannot be decreased below +1",
+	"creatures.abyss-town.goldenHyppocamph.bonus.seaMovement" : "{Navigator}\nInreases hero sea movement points by 300",
+	"creatures.abyss-town.seaweedsup.bonus.acidBreath" : "{Acid Breath}\nUnit has 50% change to deal 20% more acid damage"
+}

@@ -1,1 +1,10 @@
-{}
+{
+    "creatures.abyss-town.abyssHarpoon.bonus.warmachine": "{Гарпун}\nЗброя далекого бою, що стріляє снарядами у ворожі загони.",
+    "creatures.abyss-town.abyssHyppocamph.bonus.lucky": "{Щасливчик}\nУдача істоти не може знизитися нижче +1.",
+    "creatures.abyss-town.abyssOceanWorm.bonus.flying": "{Рухається під землею}\nЦя істота може зариватися під землю під час руху та ігнорує перешкоди на полі бою.",
+    "creatures.abyss-town.abyssSeaWorm.bonus.flying": "{Рухається під землею}\nЦя істота може зариватися під землю під час руху та ігнорує перешкоди на полі бою.",
+    "creatures.abyss-town.abyssSeahorse.bonus.lucky": "{Щасливчик}\nУдача істоти не може знизитися нижче +1.",
+    "creatures.abyss-town.goldenHyppocamph.bonus.lucky": "{Щасливчик}\nУдача істоти не може знизитися нижче +1.",
+    "creatures.abyss-town.goldenHyppocamph.bonus.seaMovement": "{Навігатор}\nЗбільшує запас руху героя морем на 300.",
+    "creatures.abyss-town.seaweedsup.bonus.acidBreath": "{Кислотне дихання}\nІстота має 50% шанс завдати на 20% більше кислотної шкоди."
+}

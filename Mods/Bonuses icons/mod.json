@@ -31,5 +31,10 @@
 		"translations" : [
 			"translation/ukrainian.json"
 		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }

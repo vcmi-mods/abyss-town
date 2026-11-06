@@ -1,1 +1,10 @@
-{}
+{
+    "creatures.abyss-town.abyssHarpoon.bonus.warmachine": "{Гарпун}\nМетательное оружие, стреляющее снарядами по вражеским войскам.",
+    "creatures.abyss-town.abyssHyppocamph.bonus.lucky": "{Счастливчик}\nУдача не может быть снижена ниже +1",
+    "creatures.abyss-town.abyssOceanWorm.bonus.flying": "{Рытьё нор}\nЭтот отряд может выкопать подкоп к любой клетке, передвигаясь беспрепятственно на поле боя",
+    "creatures.abyss-town.abyssSeaWorm.bonus.flying": "{Рытьё нор}\nЭтот отряд может выкопать подкоп к любой клетке, передвигаясь беспрепятственно на поле боя",
+    "creatures.abyss-town.abyssSeahorse.bonus.lucky": "{Счастливчик}\nУдача не может быть снижена ниже +1",
+    "creatures.abyss-town.goldenHyppocamph.bonus.lucky": "{Счастливчик}\nУдача не может быть снижена ниже +1",
+    "creatures.abyss-town.goldenHyppocamph.bonus.seaMovement": "{Штурман}\nУвеличивает очки передвижения героя по морю на 300",
+    "creatures.abyss-town.seaweedsup.bonus.acidBreath": "{Кислотное дыхание}\nУ отряда есть 50% шанс нанести на 20% больше урона кислотой"
+}

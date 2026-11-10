@@ -54,7 +54,12 @@
 			},
 			"bonuses" : {
 				"tbirdbloody" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "tbirdelectric" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "tbirdelectric"
+						}
+					]
 				}
 			}
 		}

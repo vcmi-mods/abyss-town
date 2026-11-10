@@ -2,35 +2,39 @@
 	"core:bless" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"alwaysMaximumDamage" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"val" : 1,
-						"type" : "ALWAYS_MAXIMUM_DAMAGE",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"bless" : {
+						"bonus" : {
+							"alwaysMaximumDamage" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"val" : 1,
+								"type" : "ALWAYS_MAXIMUM_DAMAGE",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -40,35 +44,39 @@
 	"core:protectWater" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "water",
-						"duration" : "N_TURNS",
-						"val" : 50
+				"battleEffects" : {
+					"protectWater" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "water",
+								"duration" : "N_TURNS",
+								"val" : 50
+							}
+						}
 					}
 				}
 			}
@@ -78,35 +86,39 @@
 	"core:protectAir" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "air",
-						"duration" : "N_TURNS",
-						"val" : 50
+				"battleEffects" : {
+					"protectAir" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "air",
+								"duration" : "N_TURNS",
+								"val" : 50
+							}
+						}
 					}
 				}
 			}
@@ -116,35 +128,39 @@
 	"core:protectFire" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "fire",
-						"duration" : "N_TURNS",
-						"val" : 50
+				"battleEffects" : {
+					"protectFire" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "fire",
+								"duration" : "N_TURNS",
+								"val" : 50
+							}
+						}
 					}
 				}
 			}
@@ -154,35 +170,39 @@
 	"core:protectEarth" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "earth",
-						"duration" : "N_TURNS",
-						"val" : 50
+				"battleEffects" : {
+					"protectEarth" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "earth",
+								"duration" : "N_TURNS",
+								"val" : 50
+							}
+						}
 					}
 				}
 			}
@@ -192,96 +212,100 @@
 	"core:prayer" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"attack" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"duration" : "N_TURNS"
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : 4,
-						"duration" : "N_TURNS"
-					},
-					"maximumDamage3" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : 4,
-						"duration" : "N_TURNS"
-					},
-					"maximumDamage4" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"type" : "STACKS_SPEED",
-						//						"addInfo" : 0,
-						"val" : 4,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"prayer" : {
+						"bonus" : {
+							"attack" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"duration" : "N_TURNS"
+							},
+							"defence" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"duration" : "N_TURNS"
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 4,
+								"duration" : "N_TURNS"
+							},
+							"maximumDamage3" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : 4,
+								"duration" : "N_TURNS"
+							},
+							"maximumDamage4" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"type" : "STACKS_SPEED",
+								//						"addInfo" : 0,
+								"val" : 4,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -291,34 +315,38 @@
 	"core:mirth" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"morale" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : true
-								}
-							]
-						],
-						"type" : "MORALE",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"mirth" : {
+						"bonus" : {
+							"morale" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : true
+										}
+									]
+								],
+								"type" : "MORALE",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -328,35 +356,39 @@
 	"core:shield" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"generalDamageReduction" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeMelee",
-						"duration" : "N_TURNS",
-						"val" : 30
+				"battleEffects" : {
+					"shield" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeMelee",
+								"duration" : "N_TURNS",
+								"val" : 30
+							}
+						}
 					}
 				}
 			}
@@ -366,35 +398,39 @@
 	"core:airShield" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"generalDamageReduction" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeRanged",
-						"duration" : "N_TURNS",
-						"val" : 50
+				"battleEffects" : {
+					"airShield" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeRanged",
+								"duration" : "N_TURNS",
+								"val" : 50
+							}
+						}
 					}
 				}
 			}
@@ -404,34 +440,39 @@
 	"core:fireShield" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
+				"battleEffects" : {
 					"fireShield" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "FIRE_SHIELD",
-						"duration" : "N_TURNS",
-						"val" : 40
+						"bonus" : {
+							"eventTrigger" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "fireShield",
+								"duration" : "N_TURNS",
+								"val" : 40
+							}
+						}
 					}
 				}
 			}
@@ -441,35 +482,39 @@
 	"core:magicMirror" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
+				"battleEffects" : {
 					"magicMirror" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "MAGIC_MIRROR",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS",
-						"val" : 40
+						"bonus" : {
+							"spellReflect" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "MAGIC_MIRROR",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : "N_TURNS",
+								"val" : 40
+							}
+						}
 					}
 				}
 			}
@@ -479,36 +524,40 @@
 	"core:bloodlust" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"primarySkill" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"val" : 6,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						//"effectRange" : "ONLY_MELEE_FIGHT",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"bloodlust" : {
+						"bonus" : {
+							"primarySkill" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"val" : 6,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								//"effectRange" : "ONLY_MELEE_FIGHT",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -518,35 +567,39 @@
 	"core:stoneSkin" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"primarySkill" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : 6,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"stoneSkin" : {
+						"bonus" : {
+							"primarySkill" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : 6,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -556,34 +609,38 @@
 	"core:fortune" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"luck" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "LUCK",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luck" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "LUCK",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -593,35 +650,39 @@
 	"core:haste" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"stacksSpeed" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 5,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"haste" : {
+						"bonus" : {
+							"stacksSpeed" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								//						"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : 5,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -631,34 +692,39 @@
 	"core:slayer" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
+				"battleEffects" : {
 					"slayer" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "SLAYER",
-						"val" : 3,
-						"duration" : "N_TURNS"
+						"bonus" : {
+							"slayer" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "SLAYER",
+								"val" : 8,
+								"addInfo" : 3,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -668,34 +734,38 @@
 	"core:counterstrike" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"additionalRetaliation" : {
-						"limiters" : [
-							[
-								"noneOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						]
-					},
-					"maximumDamage2" : {
-						"propagator" : "BATTLE_WIDE",
-						"limiters" : [
-							[
-								"anyOf",
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "abyssYuanTiLeader",
-									"includeUpgrades" : false
-								}
-							]
-						],
-						"type" : "ADDITIONAL_RETALIATION",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"counterstrike" : {
+						"bonus" : {
+							"additionalRetaliation" : {
+								"limiters" : [
+									[
+										"noneOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								]
+							},
+							"maximumDamage2" : {
+								"propagator" : "BATTLE_WIDE",
+								"limiters" : [
+									[
+										"anyOf",
+										{
+											"type" : "CREATURE_TYPE_LIMITER",
+											"creature" : "abyssYuanTiLeader",
+											"includeUpgrades" : false
+										}
+									]
+								],
+								"type" : "ADDITIONAL_RETALIATION",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

@@ -66,7 +66,8 @@
 				"val" : 5
 			},
 			"drainsLife" : {
-				"type" : "LIFE_DRAIN",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "lifeDrain",
 				"val" : 10
 			}
 		},

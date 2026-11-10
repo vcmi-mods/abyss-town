@@ -51,7 +51,7 @@
 			},
 			"bonuses" : {
 				"goldenHyppocamph2goldenHyppocamph" : {
-					"subtype" : "abyssHyppocamph"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssHyppocamph" } ]
 				}
 			}
 		}

@@ -7,7 +7,7 @@
 			"130px" : "abyss/creature-bg-130px"
 		},
 		"name" : "Abyss",
-		"nativeTerrain" : "swamp",
+		"nativeTerrain" : [ "swamp" ],
 		"puzzleMap" : {
 			"prefix" : "abyss/puzzle-map/",
 			"pieces" : [
